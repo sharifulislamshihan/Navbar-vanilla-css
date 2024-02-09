@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: orangered;
+
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    font-size: 30px;
+    align-items: center;
+    list-style: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* button that will show the dropdown */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* This will position the subcontent dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-contentmenu {
+    display: none;
+    position: absolute;
+    background-color: orangered;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentmenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-contentmenu a:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-contentmenu {
+    display: block;
+}
+
+
+/* this is subcontent dropdown part */
+
+.dropbtn-subcontent {
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* This will position the subcontent dropdown */
+.dropdown-subcontent {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-subcontentmenu {
+    display: none;
+    position: absolute;
+    background-color: orangered;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-subcontentmenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-subcontentmenu a:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-subcontent:hover .dropdown-subcontentmenu {
+    display: block;
+    top: 0;
+    left: 100%;
+}
